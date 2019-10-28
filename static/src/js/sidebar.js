@@ -1,8 +1,6 @@
 odoo.define('backend_theme_v13.Sidebar', function(require) {
     "use strict";
-    var core=require('web.core');
     var session=require('web.session');
-    var Widget=require('web.Widget');
     $(function() {
 	(function($) {
 	    $.addDebug=function(url) {
