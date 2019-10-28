@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <record id="res_users_preferences" model="ir.ui.view">
         <field name="name">res.users.preferences</field>
