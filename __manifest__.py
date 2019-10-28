@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 # Copyright 2016, 2019 Openworx - Mario Gielissen
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
@@ -8,9 +8,6 @@
     "version": "13.0.0.1",
     "category": "Theme/Backend",
     "website": "http://www.openworx.nl",
-	"description": """
-		Openworx Material Backend theme for Odoo 13.0 community edition.
-    """,
 	'images':[
         'images/screen.png'
 	],
