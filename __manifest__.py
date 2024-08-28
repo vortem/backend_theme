@@ -7,25 +7,28 @@
     "version": "13.0.0.1",
     "category": "Theme/Backend",
     "website": "http://www.openworx.nl",
-	'images':[
-        'images/screen.png'
-	],
+    'images': [
+            'images/screen.png'
+    ],
     "author": "Openworx",
     "license": "LGPL-3",
     "installable": True,
     "depends": [
         'web',
-        #'ow_web_responsive',
+        # 'ow_web_responsive',
         'web_responsive',
 
     ],
     "data": [
-        'views/assets.xml',
-		'views/res_company_view.xml',
-		#'views/users.xml',
-        #'views/sidebar.xml',
+        # 'views/assets.xml',
+        'views/res_company_view.xml',
+        # 'views/users.xml',
+        # 'views/sidebar.xml',
     ],
-    #'live_test_url': 'https://youtu.be/JX-ntw2ORl8'
-
+    # 'live_test_url': 'https://youtu.be/JX-ntw2ORl8'
+    'assets': {
+        'web.assets_backend': [
+            'backend_theme_v13/static/src/scss/style.scss',
+        ],
+    },
 }
-

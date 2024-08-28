@@ -368,7 +368,7 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 
 // App Dashboard
 
-.o_menu_apps .dropdown-menu.show {
+.o_navbar_apps_menu .dropdown-menu-custom {
 	background: transparent url('/dashboard') no-repeat scroll center center / cover;
 
 }
@@ -378,7 +378,7 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     content: "\f00a";
 }
 
-.o_menu_apps .full {
+.o_navbar_apps_menu .full {
     width: 46px;
     font-size: 18px;
     text-align: center;
@@ -393,11 +393,11 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
 }
 
-.o_menu_apps .dropdown-menu.show .o-app-icon {
+.o_navbar_apps_menu .dropdown-menu-custom .o-app-icon {
 	padding: 20px 0 0;
 }
 
-.o_menu_apps .dropdown-menu.show .o-app-icon:hover {
+.o_navbar_apps_menu .dropdown-menu-custom .o-app-icon:hover {
 	box-shadow: 0 8px 15px -10px black;
     transform: translateY(-1px);
 }
