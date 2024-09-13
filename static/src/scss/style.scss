@@ -20,11 +20,16 @@ $gray-lighter: lighten($gray-base, 93.5%);
 
 // Odoo EE colors
 //$brand-primary: #875a7b;
-$brand-secondary: #00A09D;
+$brand-secondary: #0072B9; //3005C
+//#008DCA; 
+// anterior #00A09D;
 //------------------------
-$brand-primary:   #FF5733; // #008DCA;
+$brand-primary:  #3D99D2; // 2925C
+
+
+//#008DCA; // anyerior #FF5733; 
 //$brand-secondary: #607D8B; //#5EC269;
-//------------------------
+//------------------------17243D
 
 
 $brand-primary-dark: darken($brand-primary, 10%);
@@ -277,7 +282,7 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 
 .o_required_modifier {
     &.o_input, .o_input {
-        background-color: lighten($brand-primary, 35%) ! important;
+        background-color: lighten($brand-primary, 55%) ! important;
     }
 }
 
@@ -415,3 +420,29 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 .o_thread_window .o_thread_window_header {
 	background-color: $brand-primary;
 }
+
+// Nuevo estilo para el notebook CF
+
+.o_notebook {
+    .nav-tabs {
+        background-color: #f8f9fa; // Color de fondo de las pestañas del notebook
+        border-bottom: 1px solid $brand-primary; // Color del borde inferior
+
+        .nav-link {
+            &.active {
+                background-color: $brand-primary !important; // Color de fondo para la pestaña activa
+                color: white; // Color del texto para la pestaña activa
+            }
+
+            color: $brand-primary;// Color del texto para las pestañas no activas
+        }
+    }
+}
+
+.o_notebook .tab-content {
+    padding: 10px; // Espaciado interno para el contenido de la pestaña
+    border: 0px solid #dee2e6; // Borde alrededor del contenido de la pestaña
+    border-top: none; // Eliminar el borde superior para fusionar con las pestañas
+}
+
+
