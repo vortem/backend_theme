@@ -2,9 +2,9 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 {
-    "name": "Openworx Material Backend Theme V13",
-    "summary": "Openworx Material Backend Theme V13",
-    "version": "13.0.0.1",
+    "name": "Openworx Material Backend Theme - Vortem ",
+    "summary": "Openworx Material Backend Theme",
+    "version": "16.0.0.1",
     "category": "Theme/Backend",
     "website": "http://www.openworx.nl",
     'images': [
@@ -28,7 +28,7 @@
     # 'live_test_url': 'https://youtu.be/JX-ntw2ORl8'
     'assets': {
         'web.assets_backend': [
-            'backend_theme_v13/static/src/scss/style.scss',
+            'backend_theme/static/src/scss/style.scss',
         ],
     },
 }
